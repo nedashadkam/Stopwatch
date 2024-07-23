@@ -1,0 +1,26 @@
+#container {
+    text-align: center;
+    width: 20%;
+    background-color: darkslategrey;
+    color: white;
+    padding: 2%;
+    margin-left: 38%;
+    margin-top: 30vh;
+    border-radius: 5px;
+}
+
+.keeper {
+    margin-bottom: 8px;
+}
+
+h4 {
+    margin-block-start: 0;
+    color: burlywood;
+}
+
+input {
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid darkgray;
+    background-color: #e1debc;
+}

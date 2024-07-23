@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <link rel="stylesheet" type="text/css" href="ex-66.css">
+
+</head>
+
+<body>
+
+    <div id="container">
+
+        <h4>Stopwatch</h4>
+
+        <div class="keeper">
+            <span id="hours">00</span> :
+            <span id="minutes">00</span> :
+            <span id="second">00</span> .
+            <span id="millisecond">00</span>
+        </div>
+
+        <input onclick="x=setInterval(startTime, 10)" type="button" value="Start">
+        <input onclick="clearInterval(x)" type="button" value="stop">
+        <input onclick="clearInterval(x), resetTime()" type="button" value="Reset">
+
+    </div>
+
+    <script src="ex-66.js"></script>
+
+</body>
+
+</html>
+
+
